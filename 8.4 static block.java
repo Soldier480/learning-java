@@ -27,8 +27,8 @@ public class Demo {
 	public static void main(String[] args) throws ClassNotFoundException
 	{
 		
-		Class.forName("Mobile");
-		
+		Class.forName("Mobile");  //Class.forName() is a function in java used to load class in a class pooler present in jvm.
+		//class pooler is present in jvm,after loading class the static {	} gets excetued, then objects are created (instantiated);
 //		Mobile obj1=new Mobile();
 //		obj1.brand="Apple";
 //		obj1.price=1500;
